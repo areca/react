@@ -104,7 +104,7 @@ var Inventory = React.createClass({
     return (
       <div>
         <h2>Inventory</h2>
-        <AddFishForm {...this.props}/> //Pass down all props
+        <AddFishForm {...this.props}/>
       </div>
     )
   }
