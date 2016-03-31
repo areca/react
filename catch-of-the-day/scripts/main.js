@@ -28,6 +28,10 @@ var App = React.createClass({
     });
   },
 
+  componentWillUpdate : function(nextProps, nextState){
+        console.log('Next state', nextState);
+  },
+
   addToOrder: function(key){
       this.state.order[key] = this.state.order[key] + 1  || 1;
       this.setState({order: this.state.order});
@@ -153,7 +157,7 @@ var Order = React.createClass({
    }
 
    return (
-     <li>
+     <li key={key}>
        {count}lbs
        {fish.name}
        <span className="price">{h.formatPrice(count * fish.price)}</span>
