@@ -12,6 +12,8 @@ var h = require('./helpers');
 var Rebase = require('re-base');
 var base = Rebase.createClass('https://areca-catch-of-the-day.firebaseio.com/');
 
+var Catalyst = require('react-catalyst');
+
 var App = React.createClass({
 
   getInitialState : function() {
@@ -34,7 +36,7 @@ var App = React.createClass({
       this.setState({
         order: JSON.parse(localStorageRef)
       });
-    }    
+    }
   },
 
   componentWillUpdate : function(nextProps, nextState){
