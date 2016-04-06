@@ -2,7 +2,7 @@
   Header
   <Header/>
 */
-var React = require('react');
+import React from 'react';
 
 var Header = React.createClass({
   render : function() {

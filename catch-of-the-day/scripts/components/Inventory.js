@@ -2,7 +2,7 @@
   Inventory
   <Inventory/>
 */
-var React = require('react');
+import React from 'react';
 import AddFishForm from './AddFishForm';
 
 var Inventory = React.createClass({

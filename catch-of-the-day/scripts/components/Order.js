@@ -2,7 +2,7 @@
   Order
   <Order/>
 */
-var React = require('react');
+import React from 'react';
 import CSSTransitionsGroup from 'react-addons-css-transition-group';
 import h from '../helpers';
 

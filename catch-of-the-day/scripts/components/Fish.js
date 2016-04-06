@@ -2,7 +2,7 @@
   Fish
   <Fish />
 */
-var React = require('react');
+import React from 'react';
 import h from '../helpers';
 
 var Fish = React.createClass({

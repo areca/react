@@ -2,7 +2,7 @@
   Add Fish Form
   <AddFishForm />
 */
-var React = require('react');
+import React from 'react';
 
 var AddFishForm = React.createClass({
   createFish : function(event) {

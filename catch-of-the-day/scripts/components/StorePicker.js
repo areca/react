@@ -2,7 +2,7 @@
   StorePicker
   This will let us make <StorePicker/>
 */
-var React = require('react');
+import React from 'react';
 import {History} from 'react-router';
 import h from '../helpers';
 

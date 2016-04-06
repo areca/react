@@ -1,7 +1,7 @@
 /*
   Not Found
 */
-var React = require('react');
+import React from 'react';
 
 var NotFound = React.createClass({
   render : function() {
