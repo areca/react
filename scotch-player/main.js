@@ -1,3 +1,7 @@
+"use strict";
+
+require('electron-reload')(__dirname);
+
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
