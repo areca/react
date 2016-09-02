@@ -13,6 +13,8 @@ import Player from './components/player.component';
 // Import Progress Component
 import Progress from './components/progress.component';
 
+import Footer from './components/footer.component';
+
 // Component Class
 class App extends React.Component {
 
@@ -28,7 +30,9 @@ class App extends React.Component {
               position={'0.3'}
               elapsed={'00:00'}
               total={'0:40'}/>
+            <Footer />
           </div>
+
         );
     }
 
