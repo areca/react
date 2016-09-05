@@ -18,7 +18,7 @@ class AppContainer extends React.Component {
 
   constructor(props) {
      super(props);
-     this.client_id = '2f98992c40b8edf17423d93bda2e04ab';
+     this.client_id = '7f32f201e4694bfd4268de8acf3a97f6';
      this.state = {
        track: {stream_url: '', title: '', artwork_url: ''},
        tracks: [],
