@@ -6,6 +6,3 @@ Steps:
 3. Add a watch script to package.json
 4. Create a component and render it to the index.html
 5. Run start and watch scripts to start Electron and bundling respectively
-
-Part III should be completed
-
