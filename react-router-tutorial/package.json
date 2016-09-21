@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ."
   },
-  "author": "",
+  "author": "Areca",
   "license": "ISC",
   "dependencies": {
     "react": "^0.14.7",
