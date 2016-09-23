@@ -5,4 +5,3 @@ Tech:
 react-router  
 webpack  
 babel    
-serve

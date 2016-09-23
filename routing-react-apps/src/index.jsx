@@ -1,32 +1,20 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 // Import routing components
-import {Router, Route} from 'react-router';
-
-class Home extends Component {
-    render(){
-        return (<h1>Home Page</h1>);
-    }
-}
-
-// More components
-class Car extends Component {
-    render(){
-        return (<h1>Cars page</h1>);
-    }
-}
-
-class About extends Component {
-    render(){
-        return (<h1>About page</h1>);
-    }
-}
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
+// Import custom components
+import Main from './common/main.component.jsx'
+import Home from './common/home.component.jsx'
+import About from './common/about.component.jsx'
+import Car from './car/car.component.jsx'
 
 render(
     <Router>
-        <Route path="/" component={Home}/>
-        <Route path="/cars" component={Car}/>
-        <Route path="/about" component={About}/>
+        <Route path="/" component={Main} history={browserHistory}>
+            <IndexRoute component={Home} />
+            <Route path="/cars" component={Car}/>
+            <Route path="/about" component={About}/>
+        </Route>
     </Router>,
     document.getElementById('container')
 );
