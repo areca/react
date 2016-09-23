@@ -1,0 +1,18 @@
+{
+  "name": "routing-react-apps",
+  "version": "1.0.0",
+  "description": "Routing React Apps Fundamentals   Tut from https://scotch.io/tutorials/routing-react-apps-the-complete-guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Areca",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "serve": "^1.4.0",
+    "webpack": "^1.13.2"
+  }
+}
