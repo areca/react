@@ -4,7 +4,10 @@
   "description": "Routing React Apps Fundamentals   Tut from https://scotch.io/tutorials/routing-react-apps-the-complete-guide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "webpack -d --watch",
+    "build" : "webpack",
+    "serve" : "serve ./public"
   },
   "author": "Areca",
   "license": "ISC",
