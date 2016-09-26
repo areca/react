@@ -4,11 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { IndexRoute, Route, browserHistory } from 'react-router';
 
-import MasterPage from './pages/MasterPage';
-import IndexPage from './pages/IndexPage';
-import LoginPage from './pages/LoginPage';
-import RegistrationPage from './pages/RegistrationPage';
-import ProfilePage from './pages/ProfilePage';
+import { MasterPage, IndexPage, LoginPage, RegistrationPage, ProfilePage } from './pages';
 
 ReactStormpath.init();
 
