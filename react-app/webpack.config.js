@@ -1,5 +1,5 @@
 var config = {
-	entry: './main.js',
+	entry: './main.jsx',
 	
 	output: {
 		path: './',
@@ -14,7 +14,7 @@ var config = {
 	module: {
 		loaders: [{
 			test: /\.jsx?$/,
-			exclude: /node/modules/,
+			exclude: /node_modules/,
 			loader: 'babel',
 
 			query:{
